@@ -1,0 +1,37 @@
+html {
+    font-size: 10px;
+    font-family: 'Langar', cursive;
+    background-color:rgba(243, 6, 6, 0.8);
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgba(104, 242, 157, 0.8);
+    padding: 0px 20px 20px 20px;
+    border: 2px solid black;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: rgba(243, 6, 6, 0.55);
+    text-shadow: 3px 3px 3px black;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    border: 1px dashed black;
+}
+
