@@ -1,7 +1,4 @@
 let myImage = document.querySelector('img');
-let myButton = document.querySelector('button');
-let myHeading = document.querySelector('h1');
-
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if (mySrc == 'images/milwaukee-art-museum1.jpg') {
@@ -10,6 +7,10 @@ myImage.onclick = function() {
         myImage.setAttribute('src', 'images/milwaukee-art-museum1.jpg')
     }
 }
+
+// let myButton = document.querySelector('button');
+let buttonChangeUser = document.getElementById('changeUser');
+let myHeading = document.querySelector('h1');
 
 function setUserName() {
     let myName = prompt('Please enter your name.');
@@ -28,6 +29,6 @@ if(!localStorage.getItem('name')) {
     myHeading.textContent = 'Milwaukee is cool, ' + storedName;
   }
 
-myButton.onclick = function() {
+buttonChangeUser.onclick = function() {
     setUserName();
   }
