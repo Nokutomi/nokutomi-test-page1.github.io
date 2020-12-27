@@ -9,7 +9,7 @@ myImage.onclick = function() {
 }
 
 // let myButton = document.querySelector('button');
-let buttonChangeUser = document.getElementById('changeUser');
+let buttonChangeUser = document.querySelector('changeUser');
 let myHeading = document.querySelector('h1');
 
 function setUserName() {
@@ -28,7 +28,7 @@ if(!localStorage.getItem('name')) {
     let storedName = localStorage.getItem('name');
     myHeading.textContent = 'Milwaukee is cool, ' + storedName;
   }
-
+// myButton.onclick = function() {  
 buttonChangeUser.onclick = function() {
     setUserName();
   }
